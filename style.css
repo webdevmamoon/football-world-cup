@@ -29,20 +29,6 @@ body {
     padding-left: 7%;
 }
 
-.banner-description {
-    padding-right: 70px;
-}
-
-.banner-image {
-    width: 50%;
-    padding-right: 7%;
-}
-
-.banner-image img {
-    width: 100%;
-    padding-right: 7%;
-}
-
 .banner-title {
     display: block;
     color: #FFFFFF;
@@ -57,6 +43,17 @@ body {
     font-size: 16px;
     font-weight: 300;
     margin: 5px 0;
+    padding-right: 70px;
+}
+
+.banner-image {
+    width: 50%;
+    padding-right: 7%;
+}
+
+.banner-image img {
+    width: 100%;
+    padding-right: 7%;
 }
 
 .live-button {
