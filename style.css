@@ -67,11 +67,12 @@ body {
     padding: 10px 25px;
     border-radius: 5px;
     margin-top: 10px;
-    transition: transform 0.1s;
+    transition: transform 0.3s;
 }
 
 .live-button:hover {
-    transform: scale(0.8);
+    background-color: #990000;
+    transform: scale(0.9);
 }
 
 .fa-angles-right {
@@ -209,13 +210,13 @@ body {
     padding: 10px 40px;
     border-radius: 5px;
     margin-top: 10px;
-    transition: transform 0.s;
+    transition: transform 0.3s;
 }
 
 .view-all:hover {
     color: #ffffff;
-    background-color: #DD0000;
-    transform: scale(0.8);
+    background-color: #990000;
+    transform: scale(0.9);
 }
 
 /* view button end */
