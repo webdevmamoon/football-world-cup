@@ -327,3 +327,83 @@ nav ul li a:hover {
 }
 
 /* upcomimg match style end */
+
+/* ----------------Media Queries------------- */
+
+/* ----------Mobile Devises-------- */
+@media only screen and (max-width:689px) {
+    .banner-container {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        overflow: hidden;
+    }
+
+    .banner-content {
+        width: 100%;
+        padding: 20px 50px;
+    }
+
+    .banner-title {
+        font-size: 30px;
+        padding: 0 70px;
+    }
+
+    .banner-description {
+        padding: 20px 30px;
+    }
+
+    .banner-image {
+        width: 50%;
+    }
+
+    .live-button {
+        margin-bottom: 15px;
+    }
+
+    .matches-filter-container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -50px;
+    }
+
+    .left-side {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 90%;
+        position: static;
+        background-color: #ffffff;
+    }
+
+    .filter-button {
+        border: 0.5px solid #a7a7a7d7;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+
+    .article-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .article-thumbnail {
+        width: 100%;
+    }
+
+    .view {
+        display: none;
+    }
+
+    nav ul {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        margin-top: 50px;
+    }
+
+}
+
+/* -------Tablet Devises------- */
+@media only screen and (min-width:689px) and (max-width:991px)
