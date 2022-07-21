@@ -15,7 +15,7 @@ body {
 }
 
 .banner-container {
-    width: 1140px;
+    width: 1120px;
     background-color: #161616;
     display: flex;
     justify-content: space-between;
@@ -64,7 +64,7 @@ body {
     padding: 10px 25px;
     border-radius: 5px;
     margin-top: 10px;
-    transition: transform 0.3s;
+    transition: transform 0.1s;
 }
 
 .live-button:hover {
@@ -75,4 +75,84 @@ body {
     margin-left: 10px;
 }
 
-/*-----banner Style end-----*/
+/*-----banner style end-----*/
+/* -----matches info style start----- */
+.matches-filter {
+    margin: 50px 0;
+}
+
+.matches-filter-container {
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.left-side-bar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    width: 25%;
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-top: 5px;
+}
+
+.filter-button {
+    display: block;
+    color: #000000;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: transform 0.5s;
+}
+
+.filter-item a.active {
+    color: #FFFFFF;
+    background-color: #DD0000;
+}
+
+.filter-button:hover {
+    transform: scale(1.1);
+}
+
+.right-sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+}
+
+.article-thumbnail {
+    border-radius: 5px;
+}
+
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.article-thumbnail {
+    border: 20px;
+}
+
+.article-information {
+    padding: 15px;
+}
+
+.article-info {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    margin: 5px 12px;
+}
