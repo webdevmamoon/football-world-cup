@@ -1,5 +1,81 @@
-* {
-    margin: 0;
-    padding: 0;
+/* -----fonts----- */
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
 }
+
+/*-----banner style start-----*/
+.banner-area {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.banner-container {
+    width: 1140px;
+    background-color: #161616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.banner-content {
+    width: 50%;
+    padding-left: 7%;
+}
+
+.banner-description {
+    padding-right: 70px;
+}
+
+.banner-image {
+    width: 50%;
+    padding-right: 7%;
+}
+
+.banner-image img {
+    width: 100%;
+    padding-right: 7%;
+}
+
+.banner-title {
+    display: block;
+    color: #FFFFFF;
+    font-size: 60px;
+    padding-right: 50px;
+    margin: 5px 0;
+    line-height: 1.3em;
+}
+
+.banner-description {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 5px 0;
+}
+
+.live-button {
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+
+.live-button:hover {
+    transform: scale(1.1);
+}
+
+.fa-angles-right {
+    margin-left: 10px;
+}
+
+/*-----banner Style end-----*/
