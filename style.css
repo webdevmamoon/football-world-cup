@@ -83,7 +83,7 @@ body {
 
 /* -----matches info style start----- */
 .match-filter {
-    margin: 50px 0;
+    margin: 50px auto;
 }
 
 .matches-filter-container {
@@ -135,11 +135,10 @@ body {
 
 /* right side start */
 .right-side {
-    padding-right: 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .article-container {
@@ -304,7 +303,7 @@ nav ul li a:hover {
 
 /* -------footer end-------*/
 
-/* upcomimg match style start */
+/* upcoming match style start */
 .match {
     display: flex;
     justify-content: center;
@@ -326,12 +325,12 @@ nav ul li a:hover {
     text-align: center;
 }
 
-/* upcomimg match style end */
+/* upcoming match style end */
 
 /* ----------------Media Queries------------- */
 
 /* ----------Mobile Devises-------- */
-@media only screen and (max-width:689px) {
+@media only screen and (max-width:767px) {
     .banner-container {
         width: 100%;
         flex-direction: column;
@@ -370,10 +369,10 @@ nav ul li a:hover {
     }
 
     .left-side {
+        position: static;
         flex-direction: column;
         margin: 0 auto;
         width: 90%;
-        position: static;
         background-color: #ffffff;
     }
 
@@ -406,4 +405,107 @@ nav ul li a:hover {
 }
 
 /* -------Tablet Devises------- */
-@media only screen and (min-width:689px) and (max-width:991px)
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .banner-container {
+        width: 100%;
+        padding: 20px 0;
+        margin: 20px;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-description {
+        padding: 20px 0;
+    }
+
+    .banner-description {
+        font-size: 16px;
+    }
+
+    .banner-image {
+        width: 100%;
+    }
+
+    .matches-filter-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        margin-top: -20px;
+    }
+
+    .left-side {
+        position: static;
+        width: 100%;
+        flex-direction: row;
+        background-color: #FFFFFF;
+    }
+
+    .side-bar {
+        margin: 0 auto;
+    }
+
+    .filter-item {
+        float: left;
+        margin: 0 10px;
+    }
+
+    #filter-button-1 {
+        border: 1px solid #a7a7a7d7;
+    }
+
+    #filter-button-2 {
+        border: 1px solid #a7a7a7d7;
+        display: inline-block;
+        padding: 10px 35px;
+    }
+
+    #filter-button-3 {
+        border: 1px solid #a7a7a7d7;
+        padding: 10px 60px;
+    }
+
+    .filter-button:hover {
+        transform: scale(1.1);
+    }
+
+    .right-side {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view {
+        margin: 50px 0;
+    }
+
+    .article-thumbnail {
+        width: 100%;
+    }
+
+    .match {
+        width: 300px;
+        height: auto;
+    }
+
+    nav ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* -------Desktop/Loptop Devises------- */
+@media only screen and (min-width:1024) {
+    view {
+        display: none;
+    }
+}
