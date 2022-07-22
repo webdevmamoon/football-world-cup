@@ -405,7 +405,7 @@ nav ul li a:hover {
 }
 
 /* -------Tablet Devises------- */
-@media only screen and (min-width:768px) and (max-width:1023px) {
+@media only screen and (min-width:768px) and (max-width:991px) {
     .banner-container {
         width: 100%;
         padding: 20px 0;
@@ -504,7 +504,7 @@ nav ul li a:hover {
 }
 
 /* -------Desktop/Loptop Devises------- */
-@media only screen and (min-width:1024) {
+@media only screen and (min-width:991) {
     view {
         display: none;
     }
