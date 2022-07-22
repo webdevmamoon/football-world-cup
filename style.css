@@ -504,8 +504,8 @@ nav ul li a:hover {
 }
 
 /* -------Desktop/Loptop Devises------- */
-@media only screen and (min-width:991) {
-    view {
+@media only screen and (min-width:992px) and (max-width:1920px) {
+    .view {
         display: none;
     }
 }
